@@ -1,0 +1,32 @@
+{
+  "name": "@mohun/dirlink",
+  "version": "0.0.1",
+  "description": "NPM registry manager can help you easy and fast switch between different npm registries, now include: cnpm, taobao, nj(nodejitsu), edunpm",
+  "bin": {
+    "dirlink": "./bin/dirlink.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Pana/nrm.git"
+  },
+  "scripts": {
+    "star": "npm star nrm"
+  },
+  "keywords": [
+    "NPM",
+    "registry"
+  ],
+  "author": "Pana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pana/nrm/issues"
+  },
+  "homepage": "https://github.com/Pana/nrm",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "ini": "^2.0.0",
+    "node-fetch": "2.6.6",
+    "open": "^8.4.0"
+  },
+}
